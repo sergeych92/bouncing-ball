@@ -1,0 +1,21 @@
+.field {
+    margin: 0 auto;
+    width: 500px;
+    height: 300px;
+    border: 1px solid red;
+    border-radius: 10px;
+    position: relative;
+}
+
+.ball {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: green;
+    border: 1px solid black;
+    box-shadow: 0 0 3px black;
+    top: 50px;
+    left: 150px;
+    transform: translateY(-100%); // put the top coordinate at the bottom of the ball to ease tracking
+}
